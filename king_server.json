@@ -1,0 +1,38 @@
+{
+  "database": {
+    "SAMSUNG": [
+      {"model": "Galaxy S24 Ultra", "id": "SM-S928B", "frp": "AI_v16_Bypass", "imei": "Qcom_Repair_v4"},
+      {"model": "Galaxy Z Fold 6", "id": "SM-F956B", "frp": "AI_v16_Bypass", "imei": "Qcom_Repair_v4"},
+      {"model": "Galaxy Z Flip 6", "id": "SM-F741B", "frp": "AI_v16_Bypass", "imei": "Qcom_Repair_v4"},
+      {"model": "Galaxy S23 FE", "id": "SM-S711B", "frp": "Exy_v16_Bypass", "imei": "Exy_Repair_v5"},
+      {"model": "Galaxy A55 5G", "id": "SM-A556B", "frp": "Exy_v16_Bypass", "imei": "Exy_Repair_v5"},
+      {"model": "Galaxy A35 5G", "id": "SM-A356B", "frp": "Exy_v16_Bypass", "imei": "Exy_Repair_v5"},
+      {"model": "Galaxy M54 5G", "id": "SM-M546B", "frp": "MTK_Auth_v2", "imei": "MTK_Repair_v5"},
+      {"model": "Galaxy A15 5G", "id": "SM-A156B", "frp": "MTK_Auth_v2", "imei": "MTK_Repair_v5"},
+      {"model": "Galaxy Tab S9 Ultra", "id": "SM-X910", "frp": "AI_v16_Bypass", "imei": "N/A"}
+    ],
+    "XIAOMI": [
+      {"model": "Xiaomi 14 Ultra", "id": "24030PN60G", "frp": "HyperOS_v16", "imei": "Qcom_Diag_v6"},
+      {"model": "Redmi Note 13 Pro+", "id": "23090RA98G", "frp": "MTK_Hyper_v2", "imei": "MTK_Repair_v9"},
+      {"model": "Poco F6 Pro", "id": "23113RKC6G", "frp": "HyperOS_v16", "imei": "Qcom_Diag_v6"},
+      {"model": "Redmi 13C", "id": "23106RN0DA", "frp": "MTK_Auth_v2", "imei": "MTK_Repair_v5"},
+      {"model": "Xiaomi 13T Pro", "id": "23078PND5G", "frp": "MTK_Hyper_v2", "imei": "MTK_Repair_v9"}
+    ],
+    "HUAWEI": [
+      {"model": "Pura 70 Ultra", "id": "HBP-LX9", "frp": "HMS_v6_Bypass", "imei": "Hisi_Repair_v10"},
+      {"model": "Mate 60 Pro", "id": "ALN-AL00", "frp": "HMS_v6_Bypass", "imei": "Hisi_Repair_v10"},
+      {"model": "Nova 12i", "id": "CTR-LX1", "frp": "HMS_v5_Bypass", "imei": "Hisi_Repair_v8"},
+      {"model": "Mate X5", "id": "ALT-AL10", "frp": "HMS_v6_Bypass", "imei": "Hisi_Repair_v10"}
+    ],
+    "OPPO & REALME": [
+      {"model": "Oppo Find X7 Ultra", "id": "PHY110", "frp": "Oppo_AI_v16", "imei": "Qcom_V6"},
+      {"model": "Realme GT 5G", "id": "RMX2202", "frp": "Oppo_AI_v16", "imei": "Qcom_V6"},
+      {"model": "Oppo Reno 12 Pro", "id": "CPH2629", "frp": "MTK_Auth_v3", "imei": "MTK_Repair_v10"},
+      {"model": "Realme 12 Pro+", "id": "RMX3840", "frp": "Qcom_Auth_v2", "imei": "Qcom_V6"}
+    ],
+    "VIVO": [
+      {"model": "Vivo X100 Pro", "id": "V2309", "frp": "Vivo_Funtouch_16", "imei": "MTK_Repair_v10"},
+      {"model": "V30 Pro", "id": "V2319", "frp": "Vivo_Funtouch_16", "imei": "MTK_Repair_v10"}
+    ]
+  }
+}
