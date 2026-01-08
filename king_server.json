@@ -21,8 +21,4 @@
       {"model": "Mate 60 Pro", "id": "ALN-AL00", "frp": "HMS_v6", "imei": "Hisi_v10", "boot": "hisi_unl"}
     ],
     "OPPO & REALME": [
-      {"model": "Oppo Find X7 Ultra", "id": "PHY110", "frp": "AI_v16", "imei": "Qcom_V6", "boot": "oppo_unl"},
-      {"model": "Realme 12 Pro+", "id": "RMX3840", "frp": "Qcom_v2", "imei": "Qcom_V6", "boot": "realme_unl"}
-    ]
-  }
-}
+      {"model": "Oppo Find X7 Ultra", "id": "PHY110", "frp": "AI_v16", "imei": "Q
