@@ -1,4 +1,34 @@
-{
+{{
+  "database": {
+    "SAMSUNG": [
+      {"model": "Galaxy S24 Ultra", "id": "SM-S928B", "frp": "AI_v16", "imei": "Qcom_v4", "boot": "unl_v3"},
+      {"model": "Galaxy A55 5G", "id": "SM-A556B", "frp": "Exy_v16", "imei": "Exy_v5", "boot": "unl_v3"}
+    ],
+    "XIAOMI & POCO": [
+      {"model": "Xiaomi 14 Ultra", "id": "24030PN60G", "frp": "Hyper_v16", "imei": "Diag_v6", "boot": "mi_unl"},
+      {"model": "Redmi Note 13 Pro+", "id": "2309RA98G", "frp": "MTK_v2", "imei": "MTK_v9", "boot": "mi_unl"}
+    ],
+    "HUAWEI & HONOR": [
+      {"model": "Pura 70 Ultra", "id": "HBP-LX9", "frp": "HMS_v6", "imei": "Hisi_v10", "boot": "hisi_unl"},
+      {"model": "Honor Magic 6 Pro", "id": "BVL-AN16", "frp": "MagicOS_v8", "imei": "Qcom_V7", "boot": "honor_unl"}
+    ],
+    "OPPO & REALME": [
+      {"model": "Oppo Find X7 Ultra", "id": "PHY110", "frp": "AI_v16", "imei": "Qcom_V6", "boot": "oppo_unl"},
+      {"model": "Realme 12 Pro+", "id": "RMX3840", "frp": "Qcom_v2", "imei": "Qcom_V6", "boot": "realme_unl"}
+    ],
+    "VIVO & TECNO & INFINIX": [
+      {"model": "Vivo X100 Pro", "id": "V2309", "frp": "Funtouch_16", "imei": "MTK_v10", "boot": "vivo_unl"},
+      {"model": "Infinix Note 40 Pro", "id": "X6850", "frp": "MTK_Auth", "imei": "MTK_v9", "boot": "inf_unl"},
+      {"model": "Tecno Camon 30 Premier", "id": "CL9", "frp": "MTK_Auth", "imei": "MTK_v9", "boot": "tecno_unl"}
+    ],
+    "CHIPSET SPECIAL (CPUs)": [
+      {"model": "Qualcomm Snapdragon Gen 3", "id": "QCOM-8550", "frp": "EDL_Auth", "imei": "Diag_v6", "boot": "EDL_Unl"},
+      {"model": "MediaTek Dimensity 9300", "id": "MTK-9300", "frp": "Preloader_Auth", "imei": "Brom_v2", "boot": "Brom_Unl"},
+      {"model": "UNISOC T606/T616", "id": "SPD-T616", "frp": "Diag_v2", "imei": "SPD_v4", "boot": "SPD_Unl"},
+      {"model": "HiSilicon Kirin 9000s", "id": "Kirin-9000", "frp": "TestPoint_v3", "imei": "Hisi_v10", "boot": "Hisi_Unl"}
+    ]
+  }
+}
   "database": {
     "SAMSUNG": [
       {"model": "Galaxy S24 Ultra", "id": "SM-S928B", "frp": "AI_v16_Bypass", "imei": "Qcom_Repair_v4", "boot": "unl_v3"},
