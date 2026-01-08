@@ -1,5 +1,5 @@
-{
-  "database": {
+
+  "database": 
     "SAMSUNG": [
       {"model": "Galaxy S24 Ultra", "id": "SM-S928B", "frp": "AI_v16_Bypass", "imei": "Qcom_Repair_v4", "boot": "unl_v3"},
       {"model": "Galaxy Z Fold 6", "id": "SM-F956B", "frp": "AI_v16_Bypass", "imei": "Qcom_Repair_v4", "boot": "unl_v3"},
