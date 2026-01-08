@@ -1,64 +1,28 @@
-
-  "database": 
+{
+  "database": {
     "SAMSUNG": [
-      {"model": "Galaxy S24 Ultra", "id": "SM-S928B", "frp": "AI_v16_Bypass", "imei": "Qcom_Repair_v4", "boot": "unl_v3"},
-      {"model": "Galaxy Z Fold 6", "id": "SM-F956B", "frp": "AI_v16_Bypass", "imei": "Qcom_Repair_v4", "boot": "unl_v3"},
-      {"model": "Galaxy Z Flip 6", "id": "SM-F741B", "frp": "AI_v16_Bypass", "imei": "Qcom_Repair_v4", "boot": "unl_v3"},
-      {"model": "Galaxy S23 Ultra", "id": "SM-S918B", "frp": "AI_v15_Bypass", "imei": "Qcom_Repair_v3", "boot": "unl_v2"},
-      {"model": "Galaxy S23 FE", "id": "SM-S711B", "frp": "Exy_v15_Bypass", "imei": "Exy_Repair_v5", "boot": "unl_v2"},
-      {"model": "Galaxy A55 5G", "id": "SM-A556B", "frp": "Exy_v16_Bypass", "imei": "Exy_Repair_v5", "boot": "unl_v3"},
-      {"model": "Galaxy A35 5G", "id": "SM-A356B", "frp": "Exy_v16_Bypass", "imei": "Exy_Repair_v5", "boot": "unl_v3"},
-      {"model": "Galaxy A54 5G", "id": "SM-A546B", "frp": "Exy_v14_Bypass", "imei": "Exy_Repair_v4", "boot": "unl_v2"},
-      {"model": "Galaxy A15 5G", "id": "SM-A156B", "frp": "MTK_Auth_v2", "imei": "MTK_Repair_v5", "boot": "unl_v2"},
-      {"model": "Galaxy M54 5G", "id": "SM-M546B", "frp": "Exy_v14_Bypass", "imei": "Exy_Repair_v4", "boot": "unl_v2"}
+      {"model": "Galaxy S24 Ultra", "id": "SM-S928B", "frp": "AI_v16", "imei": "Qcom_v4", "boot": "unl_v3"},
+      {"model": "Galaxy Z Fold 6", "id": "SM-F956B", "frp": "AI_v16", "imei": "Qcom_v4", "boot": "unl_v3"},
+      {"model": "Galaxy Z Flip 6", "id": "SM-F741B", "frp": "AI_v16", "imei": "Qcom_v4", "boot": "unl_v3"},
+      {"model": "Galaxy S23 Ultra", "id": "SM-S918B", "frp": "AI_v15", "imei": "Qcom_v3", "boot": "unl_v2"},
+      {"model": "Galaxy S23 FE", "id": "SM-S711B", "frp": "Exy_v15", "imei": "Exy_v5", "boot": "unl_v2"},
+      {"model": "Galaxy A55 5G", "id": "SM-A556B", "frp": "Exy_v16", "imei": "Exy_v5", "boot": "unl_v3"},
+      {"model": "Galaxy A35 5G", "id": "SM-A356B", "frp": "Exy_v16", "imei": "Exy_v5", "boot": "unl_v3"},
+      {"model": "Galaxy A15 5G", "id": "SM-A156B", "frp": "MTK_v2", "imei": "MTK_v5", "boot": "unl_v2"},
+      {"model": "Galaxy Tab S9 Ultra", "id": "SM-X910", "frp": "AI_v16", "imei": "N/A", "boot": "unl_v3"}
     ],
     "XIAOMI": [
-      {"model": "Xiaomi 14 Ultra", "id": "24030PN60G", "frp": "HyperOS_v16", "imei": "Qcom_Diag_v6", "boot": "mi_unl"},
-      {"model": "Xiaomi 14 Pro", "id": "23116PN5BC", "frp": "HyperOS_v16", "imei": "Qcom_Diag_v6", "boot": "mi_unl"},
-      {"model": "Redmi Note 13 Pro+", "id": "23090RA98G", "frp": "MTK_Hyper_v2", "imei": "MTK_Repair_v9", "boot": "mi_unl"},
-      {"model": "Redmi Note 13 Pro 5G", "id": "2312DRA50G", "frp": "HyperOS_v16", "imei": "Qcom_Diag_v6", "boot": "mi_unl"},
-      {"model": "Poco F6 Pro", "id": "23113RKC6G", "frp": "HyperOS_v16", "imei": "Qcom_Diag_v6", "boot": "mi_unl"},
-      {"model": "Poco X6 Pro", "id": "2311DRK48G", "frp": "MTK_Hyper_v2", "imei": "MTK_Repair_v9", "boot": "mi_unl"},
-      {"model": "Redmi 13C", "id": "23106RN0DA", "frp": "MTK_Auth_v2", "imei": "MTK_Repair_v5", "boot": "mi_unl"},
-      {"model": "Xiaomi 13T Pro", "id": "23078PND5G", "frp": "MTK_Hyper_v2", "imei": "MTK_Repair_v9", "boot": "mi_unl"},
-      {"model": "Redmi Note 12", "id": "23021RAA2Y", "frp": "MIUI_14_Bypass", "imei": "Qcom_Diag_v5", "boot": "mi_unl"},
-      {"model": "Poco M6 Pro", "id": "2312FPCA6G", "frp": "MTK_Auth_v2", "imei": "MTK_Repair_v5", "boot": "mi_unl"}
+      {"model": "Xiaomi 14 Ultra", "id": "24030PN60G", "frp": "Hyper_v16", "imei": "Diag_v6", "boot": "mi_unl"},
+      {"model": "Redmi Note 13 Pro+", "id": "2309RA98G", "frp": "MTK_v2", "imei": "MTK_v9", "boot": "mi_unl"},
+      {"model": "Poco F6 Pro", "id": "23113RKC6G", "frp": "Hyper_v16", "imei": "Diag_v6", "boot": "mi_unl"}
     ],
     "HUAWEI": [
-      {"model": "Pura 70 Ultra", "id": "HBP-LX9", "frp": "HMS_v6_Bypass", "imei": "Hisi_Repair_v10", "boot": "hisi_unl"},
-      {"model": "Pura 70 Pro", "id": "HBP-AL00", "frp": "HMS_v6_Bypass", "imei": "Hisi_Repair_v10", "boot": "hisi_unl"},
-      {"model": "Mate 60 Pro", "id": "ALN-AL00", "frp": "HMS_v6_Bypass", "imei": "Hisi_Repair_v10", "boot": "hisi_unl"},
-      {"model": "Mate 60 RS", "id": "ALN-AL10", "frp": "HMS_v6_Bypass", "imei": "Hisi_Repair_v10", "boot": "hisi_unl"},
-      {"model": "Nova 12 Ultra", "id": "ADA-AL00U", "frp": "HMS_v6_Bypass", "imei": "Hisi_Repair_v10", "boot": "hisi_unl"},
-      {"model": "Nova 12i", "id": "CTR-LX1", "frp": "HMS_v5_Bypass", "imei": "Hisi_Repair_v8", "boot": "hisi_unl"},
-      {"model": "Mate X5", "id": "ALT-AL10", "frp": "HMS_v6_Bypass", "imei": "Hisi_Repair_v10", "boot": "hisi_unl"},
-      {"model": "Nova 11 Pro", "id": "GOA-LX9", "frp": "HMS_v5_Bypass", "imei": "Hisi_Repair_v8", "boot": "hisi_unl"},
-      {"model": "Mate 50 Pro", "id": "DCO-LX9", "frp": "HMS_v5_Bypass", "imei": "Qcom_Hisi_v1", "boot": "hisi_unl"},
-      {"model": "P60 Pro", "id": "MNA-LX9", "frp": "HMS_v5_Bypass", "imei": "Qcom_Hisi_v1", "boot": "hisi_unl"}
+      {"model": "Pura 70 Ultra", "id": "HBP-LX9", "frp": "HMS_v6", "imei": "Hisi_v10", "boot": "hisi_unl"},
+      {"model": "Mate 60 Pro", "id": "ALN-AL00", "frp": "HMS_v6", "imei": "Hisi_v10", "boot": "hisi_unl"}
     ],
     "OPPO & REALME": [
-      {"model": "Oppo Find X7 Ultra", "id": "PHY110", "frp": "Oppo_AI_v16", "imei": "Qcom_V6", "boot": "oppo_unl"},
-      {"model": "Oppo Reno 12 Pro", "id": "CPH2629", "frp": "MTK_Auth_v3", "imei": "MTK_Repair_v10", "boot": "oppo_unl"},
-      {"model": "Realme GT 5 240W", "id": "RMX3823", "frp": "Oppo_AI_v16", "imei": "Qcom_V6", "boot": "realme_unl"},
-      {"model": "Realme 12 Pro+", "id": "RMX3840", "frp": "Qcom_Auth_v2", "imei": "Qcom_V6", "boot": "realme_unl"},
-      {"model": "Oppo A78 5G", "id": "CPH2483", "frp": "MTK_Auth_v2", "imei": "MTK_Repair_v8", "boot": "oppo_unl"},
-      {"model": "Oppo Reno 10 Pro+", "id": "CPH2521", "frp": "Qcom_Auth_v2", "imei": "Qcom_V6", "boot": "oppo_unl"},
-      {"model": "Realme 11 Pro+", "id": "RMX3741", "frp": "MTK_Auth_v2", "imei": "MTK_Repair_v9", "boot": "realme_unl"},
-      {"model": "Oppo Find N3 Flip", "id": "CPH2593", "frp": "MTK_Auth_v3", "imei": "MTK_Repair_v10", "boot": "oppo_unl"},
-      {"model": "Realme C67", "id": "RMX3890", "frp": "Qcom_Auth_v2", "imei": "Qcom_V6", "boot": "realme_unl"},
-      {"model": "Oppo A38", "id": "CPH2579", "frp": "MTK_Auth_v2", "imei": "MTK_Repair_v8", "boot": "oppo_unl"}
-    ],
-    "VIVO & HONOR": [
-      {"model": "Vivo X100 Pro", "id": "V2309", "frp": "Vivo_Funtouch_16", "imei": "MTK_Repair_v10", "boot": "vivo_unl"},
-      {"model": "Honor Magic 6 Pro", "id": "BVL-AN16", "frp": "MagicOS_v8", "imei": "Qcom_V7", "boot": "honor_unl"},
-      {"model": "Vivo V30 Pro", "id": "V2319", "frp": "Vivo_Funtouch_16", "imei": "MTK_Repair_v10", "boot": "vivo_unl"},
-      {"model": "Honor 90", "id": "REA-NX9", "frp": "MagicOS_v7", "imei": "Qcom_V6", "boot": "honor_unl"},
-      {"model": "Vivo Y200 5G", "id": "V2307", "frp": "Qcom_Auth_v2", "imei": "Qcom_V6", "boot": "vivo_unl"},
-      {"model": "Honor X9b", "id": "ALI-NX1", "frp": "MagicOS_v7", "imei": "Qcom_V6", "boot": "honor_unl"},
-      {"model": "Vivo T2 Pro", "id": "V2321", "frp": "MTK_Auth_v2", "imei": "MTK_Repair_v9", "boot": "vivo_unl"},
-      {"model": "Honor 200 Pro", "id": "ELP-AN00", "frp": "MagicOS_v8", "imei": "Qcom_V7", "boot": "honor_unl"},
-      {"model": "Vivo X Fold 3 Pro", "id": "V2337A", "frp": "Vivo_Funtouch_16", "imei": "Qcom_V7", "boot": "vivo_unl"},
-      {"model": "Honor Magic V2", "id": "VER-AN10", "frp": "MagicOS_v8", "imei": "Qcom_V7", "boot": "honor_unl"}
+      {"model": "Oppo Find X7 Ultra", "id": "PHY110", "frp": "AI_v16", "imei": "Qcom_V6", "boot": "oppo_unl"},
+      {"model": "Realme 12 Pro+", "id": "RMX3840", "frp": "Qcom_v2", "imei": "Qcom_V6", "boot": "realme_unl"}
     ]
   }
 }
