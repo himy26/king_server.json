@@ -1,4 +1,42 @@
-{
+{import requests
+import json
+
+# الرابط المحدث بناءً على روابط الجيت هب التي أرسلتها
+PRIMARY_URL = "https://raw.githubusercontent.com/himy26/king_server.json/main/king_server.json"
+BACKUP_URL = "https://raw.githubusercontent.com/himy26/king_server.json/master/king_server.json"
+
+def connect_to_king_cloud():
+    print(">>> [AI] INITIALIZING CLOUD SYNC...")
+    print(f">>> [AI] TARGET: himy26/king_server.json")
+    
+    try:
+        # المحاولة الأولى (main)
+        response = requests.get(PRIMARY_URL)
+        
+        if response.status_code == 200:
+            print(">>> [SUCCESS] 200: KING OLA CLOUD IS ONLINE!")
+            return response.json()
+        
+        # المحاولة الثانية (master) إذا فشلت الأولى
+        print(">>> [AI] Switching Branch to Master...")
+        response = requests.get(BACKUP_URL)
+        if response.status_code == 200:
+            print(">>> [SUCCESS] 200: KING OLA CLOUD IS ONLINE (Master Branch)!")
+            return response.json()
+            
+        else:
+            print(">>> [ERROR] 404: FILE NOT FOUND ON GITHUB!")
+            print(">>> [TIP] تأكد أنك رفعت ملف اسمه king_server.json داخل المستودع.")
+            
+    except Exception as e:
+        print(f">>> [CRITICAL] CONNECTION ERROR: {e}")
+
+# استدعاء البيانات
+king_data = connect_to_king_cloud()
+
+if king_data:
+    # هنا يبدأ الذكاء الاصطناعي بالعمل
+    print(f">>> [AI] Database Loaded. Ready for Xiaomi, Oppo, and Samsung.")
   "database": {
     "SAMSUNG": [
       {"model": "Galaxy S24 Ultra", "id": "SM-S928B", "frp": "AI_v16", "imei": "Qcom_v4", "boot": "unl_v3"},
