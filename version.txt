@@ -1,0 +1,24 @@
+import requests
+
+def check_for_updates():
+    # رابط ملف الإصدار على مستودع GitHub الخاص بك
+    GITHUB_VERSION_URL = "https://raw.githubusercontent.com/YourName/KingOlaTool/main/version.txt"
+    CURRENT_VERSION = "1.0"
+
+    try:
+        response = requests.get(GITHUB_VERSION_URL)
+        if response.status_code == 200:
+            latest_version = response.text.strip()
+            if latest_version > CURRENT_VERSION:
+                print(f"[SYSTEM] New Update Found: v{latest_version}")
+                # هنا يبدأ البرنامج بتحميل التحديث الجديد تلقائياً
+                download_latest_update()
+            else:
+                print("[SYSTEM] You are using the latest version.")
+    except:
+        print("[AI] Offline Mode: Could not check for updates.")
+
+def download_latest_update():
+    # رابط تحميل ملف الـ EXE الجديد من GitHub Releases
+    UPDATE_URL = "https://github.com/YourName/KingOlaTool/releases/download/v1.1/KING_OLA.exe"
+    print(">>> [AI] Downloading Update... Please wait.")
