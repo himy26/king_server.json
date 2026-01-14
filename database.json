@@ -2,35 +2,23 @@
   "database": {
     "REALME_MTK": [
       {"model": "Realme 15 5G", "id": "RMX5106"},
-      {"model": "Realme 15T 5G", "id": "RMX5111"},
       {"model": "Realme 14 Pro 5G", "id": "RMX5056"},
-      {"model": "Realme 14x 5G", "id": "RMX3940"},
       {"model": "Realme 13+ 5G", "id": "RMX5000"},
-      {"model": "Realme 13 5G", "id": "RMX3951"},
-      {"model": "Realme 12+ 5G", "id": "RMX3867"},
-      {"model": "Realme 12x 5G", "id": "RMX3998"},
-      {"model": "Realme GT 7", "id": "RMX5061"},
-      {"model": "Realme Neo7", "id": "RMX5060"},
-      {"model": "Realme 11 Pro+", "id": "RMX3740"},
-      {"model": "Realme C75 5G", "id": "RMX3943"},
-      {"model": "Realme C67 5G", "id": "RMX3782"},
-      {"model": "Realme C55", "id": "RMX3710"},
-      {"model": "Realme P1 5G", "id": "RMX3870"}
+      {"model": "Realme GT 7", "id": "RMX5061"}
     ],
     "SAMSUNG": [
-      {"model": "Galaxy S26 Ultra", "id": "SM-S948B"},
-      {"model": "Galaxy S26 Plus", "id": "SM-S946B"},
+      {"model": "Galaxy S26 Ultra (2026)", "id": "SM-S948B"},
       {"model": "Galaxy A56 5G", "id": "SM-A566B"},
-      {"model": "Galaxy M56 5G", "id": "SM-M566B"}
+      {"model": "Galaxy Z Fold 7", "id": "SM-F966B"}
     ],
     "XIAOMI": [
-      {"model": "Xiaomi 15 Pro", "id": "24101PNB7C"},
+      {"model": "Xiaomi 15 Pro (HyperOS 2)", "id": "24101PNB7C"},
       {"model": "Redmi Note 15 Pro+", "id": "24124RKC2C"},
-      {"model": "Poco F7 Pro", "id": "24122RKC3G"}
+      {"model": "Poco F7 Ultra", "id": "24122RKC3G"}
     ],
     "APPLE": [
-      {"model": "iPhone 16 Pro Max", "id": "A3296"},
-      {"model": "iPhone 15 Pro", "id": "A3102"}
+      {"model": "iPhone 16 Pro Max (Ramdisk)", "id": "A3296"},
+      {"model": "iPhone 15 (Hello Screen)", "id": "A3090"}
     ]
   }
 }
