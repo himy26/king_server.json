@@ -1,0 +1,7 @@
+{
+  "SAMSUNG": ["Galaxy A05s (SM-A057F)", "Galaxy S23 Ultra", "Galaxy A23", "Galaxy Z Fold 4"],
+  "XIAOMI": ["Redmi Note 13 (Sapphire)", "Redmi Note 8 (Ginkgo)", "Redmi Note 7 (Lavender)", "Poco X6 Neo 5G"],
+  "MOTOROLA": ["Moto G24 Power", "Moto G23 (XT2333-1)", "Moto G24"],
+  "ZTE": ["Blade-A36", "Blade-A35-Lite", "ZTE V97L"],
+  "INFINIX_TECNO": ["Infinix Note 50s", "Tecno Spark Go 2026", "Infinix Hot 40"]
+}
